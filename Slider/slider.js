@@ -6,8 +6,10 @@ $(document).ready(function() {
         maxSlides: 1,
         auto: true, // 5. Otomatik geçişler
         pause: 3000, // 5. 3 saniye bekleme
-		captions: true,
-		pagerCustom: '#pager',
-		pagerType: "short"
+	captions: true,
+	pagerCustom: '#pager',
+	pagerType: "short",
+	slideWidth: 250,
+	slideMargin: 10,
 });
 });
